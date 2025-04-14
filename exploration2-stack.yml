@@ -4,7 +4,7 @@ Resources:
   MyBucket:
     Type: 'AWS::S3::Bucket'
     Properties:
-      BucketName: 467-Bricknei-exploration2
+      BucketName: 467-bricknei-exploration2
       PublicAccessBlockConfiguration:
         BlockPublicAcls: false
         BlockPublicPolicy: false
