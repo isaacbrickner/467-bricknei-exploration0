@@ -15,6 +15,7 @@ Resources:
         ErrorDocument: error.html
   MyBucketPolicy:
     Type: 'AWS::S3::BucketPolicy'
+    DependsOn: 'MyBucket'
     Properties:
       Bucket:
         Ref: 'MyBucket'
